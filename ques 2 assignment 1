@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int n;
+    cout << "Enter total number of students" << endl;
+    cin >> n;
+
+    //students = n
+    
+    int all;
+
+    all= 80*n/100;
+    
+    int girls; 
+  
+    girls = all - 17;
+
+    cout << "Total number of girls getting grade A :- " << girls << endl;
+
+    return 0;
+
+
+}
