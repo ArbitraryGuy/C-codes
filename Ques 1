@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int len;
+    cout << "Write length" << endl;
+    cin >> len;
+
+    int breadth;
+    cout << "Write breadth" << endl;
+    cin >> breadth; 
+
+    if (len==breadth) {
+        cout << "This is a square" <<endl;
+    }
+
+    else {
+        cout << "This is a rectangle" << endl;
+         }
+
+    return 0;
+
+}
