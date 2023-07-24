@@ -1,0 +1,57 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int a;
+        cout << "Enter First number" << endl;
+        cin >> a;
+
+    int b;
+        cout << "Enter second number" << endl;
+        cin >> b;
+
+        
+    char oper;
+        cout << "Enter Your desired operator" << endl;
+        cin >> oper;
+
+
+    switch(oper) {
+
+
+        case '+' :
+        
+        int sum;
+        sum = a + b;
+        cout << "Your sum is :- " << sum<< endl;
+        break;
+
+        case '-' :
+
+        int diff;
+        diff = a - b;
+        cout << "Your difference is :- " << diff << endl;
+        break;
+
+        case '*' :
+
+        int prod;
+        prod = a*b;
+        cout << "Your product is :-  " << prod << endl;
+        break;
+
+        case '/' :
+
+        int div;
+        div = a/b;
+        cout << "Your quotient is :- " << div << endl;
+        break;
+
+        default :
+        cout << "Error 404! Reason :- Entered Operator is wrong!!" ;
+
+    }
+
+    return 0;
+}
