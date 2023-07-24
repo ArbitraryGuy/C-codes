@@ -7,14 +7,16 @@ int main() {
     cout << "Enter your number" << endl;
     cin >> n;
 
-    if (n<0) {
-        
-        cout << "Your number is negative and skipped"<<endl;
+    if(n<0) {
+
+        int a;
+        a = (n)*-1;
+        cout << "Absolute number is :- " << a <<endl;
 
     }
 
     else {
-        cout <<"Your number is :- " << n <<endl;
+        cout <<"You entered absolutely absolute number :- " << n << endl;
     }
 
     return 0;
